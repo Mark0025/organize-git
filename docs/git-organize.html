@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alias Reference Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .mnemonic {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Alias Reference Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Alias</th>
+                <th>Command</th>
+                <th>Mnemonic Memory</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><code>g</code></td>
+                <td><code>git</code></td>
+                <td class="mnemonic">Short for git</td>
+            </tr>
+            <tr>
+                <td><code>ga</code></td>
+                <td><code>git add</code></td>
+                <td class="mnemonic">Git add files to staging</td>
+            </tr>
+            <tr>
+                <td><code>gaa</code></td>
+                <td><code>git add --all</code></td>
+                <td class="mnemonic">Git add all files</td>
+            </tr>
+            <tr>
+                <td><code>gb</code></td>
+                <td><code>git branch</code></td>
+                <td class="mnemonic">Manage branches</td>
+            </tr>
+            <tr>
+                <td><code>gc</code></td>
+                <td><code>git commit --verbose</code></td>
+                <td class="mnemonic">Commit changes verbosely</td>
+            </tr>
+            <tr>
+                <td><code>gd</code></td>
+                <td><code>git diff</code></td>
+                <td class="mnemonic">Show file changes</td>
+            </tr>
+            <tr>
+                <td><code>gl</code></td>
+                <td><code>git pull</code></td>
+                <td class="mnemonic">Git pull changes</td>
+            </tr>
+            <tr>
+                <td><code>gp</code></td>
+                <td><code>git push</code></td>
+                <td class="mnemonic">Push changes to remote</td>
+            </tr>
+            <tr>
+                <td><code>gst</code></td>
+                <td><code>git status</code></td>
+                <td class="mnemonic">Check git status</td>
+            </tr>
+            <tr>
+                <td><code>md</code></td>
+                <td><code>mkdir -p</code></td>
+                <td class="mnemonic">Make directory with parents</td>
+            </tr>
+            <tr>
+                <td><code>l</code></td>
+                <td><code>ls -lah</code></td>
+                <td class="mnemonic">List files with details</td>
+            </tr>
+            <tr>
+                <td><code>la</code></td>
+                <td><code>ls -lAh</code></td>
+                <td class="mnemonic">List almost all files</td>
+            </tr>
+            <tr>
+                <td><code>open_kap</code></td>
+                <td><code>open /Applications/Kap.app</code></td>
+                <td class="mnemonic">Shortcut to open Kap</td>
+            </tr>
+            <tr>
+                <td><code>transcribe</code></td>
+                <td><code>fabric --pattern transcribe</code></td>
+                <td class="mnemonic">Run transcription script</td>
+            </tr>
+            <tr>
+                <td><code>analyze</code></td>
+                <td><code>fabric --pattern analyze</code></td>
+                <td class="mnemonic">Analyze data with Fabric</td>
+            </tr>
+        </tbody>
+    </table>
+    <footer>
+        <p>Created for mnemonic reference of common aliases.</p>
+    </footer>
+</body>
+</html>
